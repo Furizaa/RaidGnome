@@ -1,0 +1,28 @@
+{
+  "realms":[
+    {
+      "type":"pvp",
+      "queue":false,
+      "status":true,
+      "population":"medium",
+      "name":"Aegwynn",
+      "slug":"aegwynn"
+    },
+    {
+      "type":"pvp",
+      "queue":false,
+      "status":true,
+      "population":"high",
+      "name":"Alexstrasza",
+      "slug":"alexstrasza"
+    },
+    {
+      "type":"pvp",
+      "queue":false,
+      "status":true,
+      "population":"low",
+      "name":"Alleria",
+      "slug":"alleria"
+    }
+  ]
+}

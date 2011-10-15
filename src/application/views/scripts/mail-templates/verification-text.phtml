@@ -1,0 +1,15 @@
+WOWGNOME
+------------------------------------
+
+Account Verification Mail
+
+------------------------------------
+
+Welcome to WoWGnome! To finish your account registration please follow the following link:
+
+<?php $verifiUrl = $this->url(array('controller' => 'index',
+		    	                    'action' => 'verification',
+		                            'vkey' => $this->account->getUniqueKey()
+		                           ), 'rewrite');
+?>
+<?php echo $verifiUrl; ?>

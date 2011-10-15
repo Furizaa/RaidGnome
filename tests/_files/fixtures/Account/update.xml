@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataset>
+	<!-- Password is "UnitTest" sha1 encrypted -->
+	<account 
+		id="1"
+		created_at="0000-00-00 00:00:00"
+		updated_at="0000-00-00 00:00:00"
+		
+		email="testing2@raidster.com"
+		password="ce04fe357bc67be9be8f97f0a07e36dc7b63edfc"
+		unique_key="abcd-efgh"
+		verified="1" 
+		/>
+</dataset>

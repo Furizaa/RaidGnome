@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataset>
+    <server
+        id="1"
+        
+        name="Gul'dan"
+        slug="guldan"
+        type="pvp"
+        region="eu"
+    />
+    <server
+        id="2"
+        
+        name="Eìtrig"
+        slug="eitrig"
+        type="rp"
+        region="us"
+    />
+    <server
+        id="3"
+        
+        name="Kil'jaeden"
+        slug="kiljaeden"
+        type="pve"
+        region="eu"
+    />
+</dataset>

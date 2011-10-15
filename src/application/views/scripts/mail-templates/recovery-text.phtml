@@ -1,0 +1,15 @@
+WOWGNOME
+------------------------------------
+
+Password Recovery Verification Mail
+
+------------------------------------
+
+You have requested a password recovery. To finalize the proccess, please klick the following link:
+
+<?php $verifiUrl = $this->url(array('controller' => 'recovery',
+		    	                    'action' => 'verification',
+		                            'vkey' => $this->account->getUniqueKey()
+		                           ), 'rewrite');
+?>
+<?php echo $verifiUrl; ?>

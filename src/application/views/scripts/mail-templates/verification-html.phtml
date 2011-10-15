@@ -1,0 +1,16 @@
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+</head>
+<body>
+	<h1>WoWGnome</h1>
+	<h2>Account Verification Mail</h2>
+	<p>Welcome to Raister! To finish your account registration please follow the following link:<br />
+		<?php $verifiUrl = $this->url(array('controller' => 'index',
+		    	                            'action' => 'verification',
+		                                    'vkey' => $this->account->getUniqueKey()
+		                                   ), 'rewrite');
+		?>
+		<a href="<?php echo $verifiUrl; ?>"><?php echo $verifiUrl; ?></a>
+	</p>
+</body>

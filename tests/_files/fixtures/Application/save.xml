@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataset>
+    <application
+        id="1"
+        
+        event_id="1"
+        char_id="1"
+        status="indecicive"
+        comment="Comment"
+        partial_come="2020-01-01 15:00:00"
+        partial_go="2020-01-01 16:00:00"
+        />
+    <application
+        id="2"
+        
+        event_id="1"
+        char_id="1"
+        status="indecicive"
+        comment="Comment"
+        partial_come="2020-01-01 15:00:00"
+        partial_go="2020-01-01 16:00:00"
+        />
+</dataset>

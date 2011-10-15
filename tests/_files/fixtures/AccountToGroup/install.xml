@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataset>
+    <server
+        id="1"
+        
+        name="Gul'dan"
+        slug="guldan"
+        region="eu"
+        type="pvp"
+    />
+    <account 
+        id="1"
+        
+        email="testing1@raidster.com"
+        password="ce04fe357bc67be9be8f97f0a07e36dc7b63edfc"
+        unique_key="abcd-efgh"
+        verified="1" 
+        />
+    <account 
+        id="2"
+        
+        email="testing2@raidster.com"
+        password="ce04fe357bc67be9be8f97f0a07e36dc7b63edfc"
+        unique_key="abcd-efgh"
+        verified="1" 
+        />
+    <group 
+        id="1"
+        
+        name="Shangri'la"
+        server_id="1"
+        creator_id="1"
+        faction="horde" 
+        />
+    <group 
+        id="2"
+        
+        name="Sha"
+        server_id="1"
+        creator_id="1"
+        faction="alliance" 
+        />
+    <_account_x_group
+        account_id="1"
+        group_id="1"    
+        />
+</dataset>

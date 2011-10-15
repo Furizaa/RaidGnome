@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataset>
+    <server
+        id="1"
+        
+        name="Gul'dan"
+        slug="guldan"
+        region="eu"
+        type="pvp"
+    />
+    <account 
+        id="1"
+        
+        email="testing@raidster.com"
+        password="ce04fe357bc67be9be8f97f0a07e36dc7b63edfc"
+        unique_key="abcd-efgh"
+        verified="1" 
+        />
+    <group 
+        id="1"
+        
+        name="Shangri'la"
+        server_id="1"
+        creator_id="1"
+        faction="horde" 
+        />
+    <group 
+        id="2"
+        
+        name="Ultio Sanguineus"
+        server_id="1"
+        creator_id="1"
+        faction="alliance" 
+        />
+    <event
+        id="1"
+        
+        creator_id="1"
+        group_id="1"
+        name="Blackwing Lair Retro"
+        start="2020-01-01 00:00:00"
+        end="2020-01-06 15:00:00"
+        type_id="1"
+        players="25"        
+        />
+    <event
+        id="2"
+        
+        creator_id="1"
+        group_id="1"
+        name="Blackwing Lair Retro"
+        start="2020-01-05 00:00:01"
+        end="2020-01-05 00:03:00"
+        type_id="1"
+        players="25"        
+        />
+    <event
+        id="3"
+        
+        creator_id="1"
+        group_id="2"
+        name="Blackwing Lair Retro"
+        start="2020-01-01 00:00:00"
+        end="2020-01-06 15:00:00"
+        type_id="1"
+        players="25"        
+        />
+    <event
+        id="4"
+        
+        creator_id="1"
+        group_id="1"
+        name="Blackwing Lair Retro"
+        start="2020-01-02 12:00:00"
+        end="2020-01-02 15:00:00"
+        type_id="1"
+        players="25"        
+        />
+</dataset>

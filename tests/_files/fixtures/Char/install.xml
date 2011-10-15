@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataset>
+    <server
+        id="1"
+        
+        name="Gul'dan"
+        slug="guldan"
+        region="eu"
+        type="pvp"
+    />
+    <account 
+        id="1"
+        
+        email="testing@raidster.com"
+        password="ce04fe357bc67be9be8f97f0a07e36dc7b63edfc"
+        unique_key="abcd-efgh"
+        verified="1" 
+        />
+
+    <char
+        id="1"
+        
+        account_id="1"
+        server_id="1"
+        name="Fleya"
+        faction="alliance"
+        class="rogue"
+        race="worgen"
+        sex="female"
+        level="85"
+        tree_first="8"
+        tree_second="33"
+        tree_third="8"
+        style_tank="0"
+        style_heal="0"
+        style_dps="1"
+        />
+        
+    <char
+        id="2"
+        
+        account_id="1"
+        server_id="1"
+        name="Nnoitra"
+        faction="alliance"
+        class="priest"
+        race="dreanai"
+        sex="female"
+        level="85"
+        tree_first="8"
+        tree_second="33"
+        tree_third="8"
+        style_tank="0"
+        style_heal="1"
+        style_dps="1"
+        />
+</dataset>
